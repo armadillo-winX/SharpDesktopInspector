@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpDesktopInspector", "SharpDesktopInspector\SharpDesktopInspector.csproj", "{2339363B-B8B4-46A9-929D-F8E8A58592D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD0BDDDB-8352-471D-8570-E8A0B7D0D133}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2339363B-B8B4-46A9-929D-F8E8A58592D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2339363B-B8B4-46A9-929D-F8E8A58592D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2339363B-B8B4-46A9-929D-F8E8A58592D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2339363B-B8B4-46A9-929D-F8E8A58592D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ACEA047-9CBA-4314-8004-EFEA594D0E35}
+	EndGlobalSection
+EndGlobal

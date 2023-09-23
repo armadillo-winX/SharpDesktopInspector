@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>SharpDesktopInspector.ico</ApplicationIcon>
+    <Authors>Mashiro Tamane</Authors>
+    <Product>Sharp Desktop Inspector</Product>
+    <Copyright>Copyright © 2023- Mashiro Tamane</Copyright>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <UseWindowsForms>True</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="SharpDesktopInspector.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="SharpDesktopInspectorNotify.ico" />
+  </ItemGroup>
+
+</Project>

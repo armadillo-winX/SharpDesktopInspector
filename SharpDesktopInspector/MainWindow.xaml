@@ -1,0 +1,26 @@
+﻿<Window x:Class="SharpDesktopInspector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SharpDesktopInspector"
+        mc:Ignorable="d"
+        Title="設定" Height="177" Width="394" ResizeMode="CanMinimize" Loaded="MainWindowLoaded">
+    <Grid>
+        <Button x:Name="OKButton"
+            Width="90" Height="24"
+            IsDefault="True"
+            Content="_OK" HorizontalAlignment="Right" 
+            Margin="0,0,10,10" VerticalAlignment="Bottom" Click="OKButtonClick"/>
+        <Label Content="監視ターゲット:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="TargetComboBox"
+            HorizontalAlignment="Left" Margin="94,12,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="TargetComboBoxSelectionChanged">
+            <ComboBoxItem Content="すべて"/>
+            <ComboBoxItem Content="特定のファイル"/>
+        </ComboBox>
+        <Label Content="監視するファイル種類:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TargetTypeBox"
+            Margin="128,45,10,0" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Text="" VerticalAlignment="Top" Height="18"/>
+
+    </Grid>
+</Window>
